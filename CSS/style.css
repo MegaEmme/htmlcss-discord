@@ -1,0 +1,192 @@
+/* impostazioni su tutto il contenuto  */
+
+*{
+    border: 1px dashed black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* /impostazioni su tutto il contenuto  */
+
+
+/* impostazioni colori sfondi  */
+
+.bg_azure{
+    background-color:azure;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.bg_blue{
+    background-color:#00008b;
+}
+
+.bg_gray{
+    background-color:#d3d3d3;
+}
+
+.bg_black{
+    background-color:#23272a;
+}
+
+/* /impostazioni colori sfondi  */
+
+
+/* sezione header */
+
+
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #add8e6;
+    margin-bottom: 40;
+}
+
+.nav{
+    margin: auto;
+    width: 800px;
+    height: 30px;
+    background-color: #daa520;
+    display: flex;
+}
+
+.width_logo{
+    padding-left: 10px;
+    width: 20%;
+}
+
+.width_link{
+    width: 60%;
+}
+
+.width_login{
+    text-align: end;
+    width: 20%;
+    padding-right: 10px;
+}
+
+.link{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* /sezione header */
+
+
+/* sezione main */
+
+main section .row{
+    height: 300px;
+    display: flex;
+}
+
+main > section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.bg_blue > .container{
+    background-color:#ee82ee ;
+    width: 600px;
+}
+
+#blue{
+    height: 200px;
+}
+
+.big_square{
+    width: 60%;
+    background-color:#1e90ff;
+}
+
+.small_square{
+    width: 40%;
+    background-color:#ffc0cb;
+}
+
+/* come section 2 ma invertito  */
+
+.section_3{
+    flex-direction: row-reverse;
+}
+
+/* /come section 2 ma invertito  */
+
+#section_5{
+    height: 600px;
+    background-color:#228b22; 
+}
+
+/* /sezione main */
+
+
+/* sezione footer  */
+
+footer > div{
+    display: flex;
+    height: 400px;
+    background-color:#23272a;
+}
+
+.foot_section_1{
+    padding-top: 10px;
+    justify-content: center;
+}
+
+#ante_footer{
+    background-color: #f08080;
+    width: 800px;
+    height: 90%;
+    display: flex;   
+    justify-content: flex-end; 
+}
+
+#ante_footer_2{
+    background-color: #20b2aa;
+    width: 133px;
+    border: 1px dashed white;
+}
+
+hr{
+    color: white;
+}
+
+#foot_section_2{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 20px;
+    justify-content: center;
+    height: 100px;
+}
+
+.end_page{
+    background-color: #7fffd4;
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_button{
+    background-color: #ffb6c1;
+    padding: 5px;
+}
+
+
+/* /sezione footer  */
