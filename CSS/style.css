@@ -11,12 +11,10 @@
 /* /impostazioni su tutto il contenuto  */
 
 
+
+
+
 /* impostazioni colori sfondi  */
-
-
-/* .bg_white{
-    background-color: white;
-} */
 
 .bg_gray{
     background-color:#f6f6f6;
@@ -25,8 +23,10 @@
 /* /impostazioni colori sfondi  */
 
 
-/* sezione header */
 
+
+
+/* sezione header */
 
 header{
     padding-top: 10px;
@@ -79,8 +79,8 @@ li{
     margin-bottom: 2px;
 }
 
-
 /* /sezione header */
+
 
 
 
@@ -235,22 +235,20 @@ footer > div{
     justify-content: flex-end; 
 }
 
-#ante_footer_2{
+#ante_footer > div{
     background-color: #20b2aa;
     width: 133px;
     border: 1px dashed white;
 }
 
 #foot_section_2{
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
     padding-top: 20px;
     justify-content: center;
     height: 100px;
 }
 
 .end_page{
-    background-color: #7fffd4;
+    border-top: 1px solid #546397;
     display: flex;
     width: 800px;
     align-items: center;
@@ -258,8 +256,12 @@ footer > div{
 }
 
 .logo_button{
-    background-color: #ffb6c1;
-    padding: 5px;
+    font-size: 10px;
+    border-radius: 35px;
+    background-color: #7288da ;
+    padding: 6px;
+    color: white;
+    padding: 8px 14px;
 }
 
 
