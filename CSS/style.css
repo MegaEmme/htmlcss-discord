@@ -345,9 +345,6 @@ select{
     width: 100%;
 }
 
-.column_1 > h4{
-    
-}
 
 i.fa-solid.fa-angle-down{
     font-size: 10px;
@@ -364,4 +361,9 @@ footer ul > li{
 footer ul > li > a{
     color: white;
     text-decoration: none;
+}
+
+footer li:hover{
+    text-decoration: underline;
+    color: white;
 }
