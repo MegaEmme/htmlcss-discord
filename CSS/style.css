@@ -14,12 +14,12 @@
 /* impostazioni colori sfondi  */
 
 
-.bg_white{
+/* .bg_white{
     background-color: white;
-}
+} */
 
 .bg_gray{
-    background-color:#d3d3d3;
+    background-color:#f6f6f6;
 }
 
 /* /impostazioni colori sfondi  */
@@ -83,10 +83,11 @@ li{
 /* /sezione header */
 
 
+
+
 /* sezione main */
 
 main section .row{
-    /* height: 300px; */
     display: flex;
 }
 
@@ -128,6 +129,7 @@ h1{
     font-size: 30px;
 
 }
+
 p{
     margin-top: 20px;
     font-size: 12px;
@@ -176,17 +178,34 @@ h4{
     flex-shrink: 0;
 }
 
-/* come section 2 ma invertito  */
-
-.section_3{
-    flex-direction: row-reverse;
+#section_5{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
 }
 
-/* /come section 2 ma invertito  */
+#Mac_2{
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 35px;
+    background-color:#7288da ;
+    color: white;
+}
 
-#section_5{
-    height: 600px;
-    background-color:#228b22; 
+.stars{
+    align-self: center;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+}
+
+h3{
+    font-size: 24px;
+    margin-top: 50px;
+    padding-top: 40px;
+    margin-bottom: 50px;
 }
 
 /* /sezione main */
