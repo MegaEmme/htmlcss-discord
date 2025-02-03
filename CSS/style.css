@@ -124,9 +124,13 @@ background-size: cover;
     font-size: large;
 }
 
+h1{
+    font-size: 30px;
+
+}
 p{
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
 }
 
@@ -151,30 +155,25 @@ p{
 
 }
 
+h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
 h4{
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
     line-height: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-.big_square{
-    width: 60%;
+.img{
+    max-width:100%;
 }
 
 .small_square{
+    padding: 30px;
     width: 40%;
     flex-shrink: 0;
-    margin-left: 100px;
-    background-color:#ffc0cb;
 }
 
 /* come section 2 ma invertito  */
