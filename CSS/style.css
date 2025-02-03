@@ -1,6 +1,7 @@
 /* impostazioni su tutto il contenuto  */
 
 *{
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
     /* border: 1px dashed black; */
     margin: 0;
     padding: 0;
@@ -12,9 +13,6 @@
 
 /* impostazioni colori sfondi  */
 
-.bg_blue{
-    background-color:#00008b;
-}
 
 .bg_white{
     background-color: white;
@@ -55,8 +53,9 @@ header{
     width: 60%;
 }
 
-.link{          
-    padding-top: 5px;
+.link{      
+    font-size: small;    
+    padding-top: 8px;
     color: white;
     list-style: none;
     display: flex;
@@ -69,12 +68,15 @@ li{
 }
 
 .login{
+    font-size: small;
     border-radius: 35px;
     padding-top: 5px;
     background-color: white;
     text-align: center;
-    width: 70px;
-    margin-left: 50px;
+    width: 60px;
+    margin-left: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 
@@ -84,7 +86,7 @@ li{
 /* sezione main */
 
 main section .row{
-    height: 300px;
+    /* height: 300px; */
     display: flex;
 }
 
@@ -93,19 +95,70 @@ main > section{
     padding-bottom: 30px;
 }
 
+.jumbotron{
+background-image: url("../img/jumbo.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 .container{
     width: 800px;
     margin: 0 auto;
 }
 
-.bg_blue > .container{
-    background-color:#ee82ee ;
+.jumbotron > .container{
     width: 600px;
 }
 
-#blue{
-    height: 200px;
+.section_1{
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    
 }
+
+.intro{
+    margin: 35px;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.buttons{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#Mac{
+    padding: 10px 20px;
+    border-radius: 35px;
+    background-color: white;
+}
+
+#browser{
+    padding: 10px 20px;
+    border-radius: 35px;
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
 
 .big_square{
     width: 60%;
@@ -158,10 +211,6 @@ footer > div{
     background-color: #20b2aa;
     width: 133px;
     border: 1px dashed white;
-}
-
-hr{
-    color: white;
 }
 
 #foot_section_2{
