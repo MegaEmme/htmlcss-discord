@@ -101,10 +101,10 @@ main > section{
 }
 
 .jumbotron{
-background-image: url("../img/jumbo.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .jumbotron > .container{
@@ -194,14 +194,13 @@ h4{
     background-image: url("../img/stars.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:top center;
     width: 60%;
 }
 
 h3{
-    font-size: 24px;
-    margin-top: 50px;
-    padding-top: 40px;
+    font-size: 25px;
+    margin-top: 30px;
 }
 
 .end_main{
