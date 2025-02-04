@@ -1,5 +1,7 @@
 # Esercizio pagina Discord
 
+Link: https://megaemme.github.io/htmlcss-discord/
+<<<<<<< HEAD
 ## Descrizione:
 Riproduciamo il layout come da screenshot cercando di essere il più fedeli possibili.
 Partiamo dai blocchi colorati e solo quando tutto funziona passiamo al dettaglio, sezione per sezione.
@@ -12,3 +14,7 @@ Partite comunque sempre semplici, non focalizzandovi su parti/soluzioni compless
 #### Info:
 Font Family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 Icone Social: FontAwesome
+=======
+
+Link: https://megaemme.github.io/htmlcss-discord/
+>>>>>>> 2159271ab70a41916e6a7fbbe691c130d712c55d
