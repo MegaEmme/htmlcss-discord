@@ -2,15 +2,10 @@
 
 *{
     font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-    /* border: 1px dashed black; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid red; */
 }
-
-
-
 
 /* /impostazioni su tutto il contenuto  */
 
@@ -74,7 +69,7 @@ li{
 .login{
     font-size: small;
     border-radius: 35px;
-    padding-top: 5px;
+    padding-top: 2px;
     background-color: white;
     text-align: center;
     width: 60px;
@@ -119,7 +114,6 @@ background-size: cover;
     flex-direction: column;
     justify-content: center;
     margin: 40px;
-    
 }
 
 .intro{
@@ -131,7 +125,6 @@ background-size: cover;
 
 h1{
     font-size: 30px;
-
 }
 
 p{
@@ -158,7 +151,6 @@ p{
     border-radius: 35px;
     background-color: black;
     color: white;
-
 }
 
 h2{
@@ -209,12 +201,12 @@ h3{
     font-size: 24px;
     margin-top: 50px;
     padding-top: 40px;
-    margin-bottom: 50px;
 }
 
 .end_main{
     padding-bottom: 120px;
 }
+
 /* /sezione main */
 
 
@@ -225,7 +217,6 @@ h3{
 
 footer > div{
     display: flex;
-    /* height: 400px; */
     background-color:#23272a;
 }
 
@@ -236,13 +227,8 @@ footer > div{
 
 #ante_footer{
     width: 800px;
-    /* height: 90%; */
     display: flex;   
 }
-
-/* #ante_footer > div{
-    border: 1px dashed white;
-} */
 
 .column_1{
     flex-grow: 1;
@@ -270,7 +256,6 @@ footer > div{
 select{
     color: white;
     background-color: rgba(0,0,0,0);
-    
 }
 
 .column_2{
@@ -285,20 +270,23 @@ select{
     color: white;
 }
 
-
 .footer_links_row.language_row{
     justify-content: flex-start;
     align-items: center;
 }
+
 .footer_links_row.language_row > *{
     display: block;
 }
+
 .margin-right-5{
     margin-right: 5px;
 }
+
 .margin-bottom-20{
     margin-bottom: 15px;
 }
+
 .margin-right-10{
     margin-right:15px;
 }
@@ -335,16 +323,14 @@ select{
     width: 100%;
     padding: 0 10px;
 }
+
 .footer_links_col > h5{
     font-weight: bolder;
 }
 
-/* /sezione footer  */
-
 .column_1 > *{
     width: 100%;
 }
-
 
 i.fa-solid.fa-angle-down{
     font-size: 10px;
@@ -367,3 +353,5 @@ footer li:hover{
     text-decoration: underline;
     color: white;
 }
+
+/* /sezione footer  */
